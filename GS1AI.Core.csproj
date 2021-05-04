@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Title>Barcode Bakery - GS1 AI Extensions</Title>
+    <AssemblyName>BarcodeBakery.GS1AI</AssemblyName>
+    <RootNamespace>BarcodeBakery.Common.GS1</RootNamespace>
+    <Description>Library to support GS1 barcodes.</Description>
+    <Author>Jean-Sébastien Goupil</Author>
+    <Authors>Jean-Sébastien Goupil</Authors>
+    <Copyright>Copyright © Jean-Sébastien Goupil</Copyright>
+    <Version>1.0.0</Version>
+    <PackageId>BarcodeBakery.GS1AI</PackageId>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageTags>barcode generator bakery code128 gs1 gs1-128 ai</PackageTags>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <RepositoryUrl>git://github.com/barcode-bakery/utility-dotnet-gs1ai</RepositoryUrl>
+    <PackageProjectUrl>https://www.barcodebakery.com</PackageProjectUrl>
+    <PackageLicenseUrl>https://www.barcodebakery.com/en/license/eula</PackageLicenseUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Barcode1D.Core\Barcode1D.Core.csproj" />
+    <ProjectReference Include="..\BarcodeCommon.Core\BarcodeCommon.Core.csproj" />
+  </ItemGroup>
+
+</Project>
